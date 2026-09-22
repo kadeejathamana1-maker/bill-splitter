@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Bill Splitter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Bill Splitter</h1>
+        <p>Split your bill easily with friends</p>
+
+        <label>Total Bill</label>
+        <input type="number" id="bill" placeholder="Enter bill amount">
+
+        <label>Number of People</label>
+        <input type="number" id="people" placeholder="Enter number of people">
+
+        <label>Tip (%)</label>
+        <input type="number" id="tip" placeholder="Enter tip percentage">
+
+        <button onclick="calculateBill()">Calculate</button>
+
+        <div id="result"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
